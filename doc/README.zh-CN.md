@@ -156,7 +156,7 @@ java -jar java-gate.jar run-new-jvm [module] [shellcode-hex-string]
 
 ## 一些测试
 
-可过几乎所有主流杀软
+可过几乎所有主流杀软，某些时候会提示 `Java` 存在风险，但不影响 `meterpreter` 反弹 `shell` 上线等功能
 
 ## 参考与感谢
 
