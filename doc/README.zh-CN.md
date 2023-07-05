@@ -27,6 +27,7 @@ gate.exec();
 - 该项目仅支持64位 `Windows` 和64位 `JVM` （由于 `JNI` 规定64位 `JVM` 只能加载64位 `DLL`）
 - 建议使用64位的`shellcode`（例如`windows/x64/meterpreter/reverse_tcp`）
 - 使用任意方式加载 `shellcode` 都有可能会导致 `JVM` 崩溃（例如 `shellcode` 没有恢复现场）
+- 仅在 `JDK 8` 中测试通过，其他版本 `JDK` 不稳定
 
 ## 快速开始
 
@@ -49,7 +50,7 @@ gate.exec();
 <dependency>
     <groupId>com.github.4ra1n</groupId>
     <artifactId>java-gate</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 

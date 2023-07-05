@@ -25,6 +25,7 @@ Note:
 - This project only supports 64-bit Windows and 64-bit JVM (as per JNI's requirement that a 64-bit JVM can only load 64-bit DLLs).
 - It is recommended to use 64-bit shellcode (e.g., windows/x64/meterpreter/reverse_tcp).
 - Loading shellcode in any way may potentially cause JVM crashes (e.g., if the shellcode does not restore the context).
+- Only tested in JDK 8, other versions of JDK may not be stable.
 
 ## Quick Start
 
@@ -45,7 +46,7 @@ Note:
 <dependency>
     <groupId>com.github.4ra1n</groupId>
     <artifactId>java-gate</artifactId>
-    <version>0.0.1</version>
+    <version>0.0.2</version>
 </dependency>
 ```
 
