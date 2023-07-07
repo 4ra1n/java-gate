@@ -14,7 +14,7 @@ HellsGate gate = new HellsGate(shellcode);
 gate.exec();
 ```
 
-Furthermore, it supports various techniques derived from "Hell's Gate," such as "Halo's Gate," "Recycled Gate," and "Tartarus Gate," among others. In addition to system call-related functionalities, it is compiled and built using C and NASM/MASM assembly, and invoked at the Java layer through JNI. The project also provides many common methods for injecting shellcode, such as APC injection and remote thread injection. All these low-level techniques can be achieved using simple Java code.
+It supports multiple techniques evolved from "Hell's Gate," such as "Halo's Gate," "Recycled Gate," "Tartarus Gate," and so on. In addition to system call-related functions, it provides many common Shellcode injection techniques, such as APC injection and remote thread injection, and is compiled and built using C and NASM/MASM assembly language. Finally, it calls these techniques at the Java layer through JNI. Various low-level techniques can be achieved through simple Java code.
 
 ## Introduction
 

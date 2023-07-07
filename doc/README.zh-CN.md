@@ -14,8 +14,10 @@ gate.exec();
 
 并且支持多种由 `Hell's Gate` 演变而来的技术，如光环之门 `Halo's Gate` 回收之门 `Recycled Gate`
 塔尔塔罗斯之门 `Tartarus Gate`
-等，除了系统调用相关的功能，使用 `C` 和 `NASM/MASM` 汇编编译和构建，通过 `JNI` 在 `Java` 层调用。
-另外提供了很多常见的 `Shellcode` 注入方式，例如 `APC` 注入，和远程线程注入等技术。各种底层技术都可以通过简单的 `Java` 代码做到。
+等。除了系统调用相关的功能，另外提供了很多常见的 `Shellcode` 注入方式，
+例如 `APC` 注入，和远程线程注入等技术。
+使用 `C` 和 `NASM/MASM` 汇编编译和构建，通过 `JNI` 在 `Java` 层调用。
+各种底层技术都可以通过简单的 `Java` 代码做到。
 
 ## 介绍
 
